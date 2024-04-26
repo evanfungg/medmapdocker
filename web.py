@@ -7,7 +7,7 @@ import os
 
 
 app = Flask(__name__)
-CORS(app, resources={r"/flask/*": {"origins": ["http://localhost:3000", "https://medmap.vercel.app/", "http://5.78.119.58:30031/"]}})
+CORS(app, resources={r"/flask/*": {"origins": ["http://localhost:3000", "https://medmap.vercel.app/", "http://5.78.119.58:30031"]}})
 COHERE_API_KEY = os.environ.get('COHERE_API_KEY')
 co = cohere.Client(COHERE_API_KEY)
 

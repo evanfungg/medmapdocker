@@ -27,7 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.venv
+venv/
 .env.production
 
 # vercel
@@ -37,4 +37,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+web_dev.py
 

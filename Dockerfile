@@ -13,6 +13,9 @@ RUN npm install && npm install sharp
 # Copy the rest of your project
 COPY . .
 
+# Set Node.js environment to production to avoid loading .env.local in Next.js
+ENV NODE_ENV production
+
 # Build your Next.js application
 RUN npm run build
 
