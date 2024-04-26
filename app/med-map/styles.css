@@ -1,0 +1,168 @@
+
+.main-med {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #33acae47, #0daaac);
+}
+
+.graphContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+    position: relative; /* Add this line */
+  }
+  
+  .graphCard {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: white;
+    
+  }
+  
+  
+  
+  button {
+    border: none;
+    background-color: transparent;
+    color: #333; 
+    font-size: 24px; 
+    cursor: pointer;
+  }
+
+  .popup {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    position: absolute;
+    z-index: 1;
+    top: 170px; /* Change this to align to the top */
+    right: 20px; /* Adjust as needed to align with the graph's right edge */
+    transform: translate(0, -50%); /* Remove or adjust this line as necessary */
+}
+
+.popup-content {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+
+.popup-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+ 
+  .popup-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    max-width: 500px;
+    width: 90%;
+    z-index: 1001;
+    position: absolute;
+    top: 0px;
+    max-height: 80vh; 
+    overflow-y: auto; 
+  }
+
+  
+  
+ 
+  .popup-header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .popup-close {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: #bbb;
+    cursor: pointer;
+  }
+  
+  .popup-close:hover {
+    color: #333;
+  }
+  
+  
+  .popup-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .popup-form button {
+    background-color: #388bcb;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .popup-form button:hover {
+    background-color: #33acae;
+  }
+  
+
+  .add-button {
+    background: #33acae;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px 0 rgba(0, 123, 255, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    outline: none;
+    flex: none; 
+    text-align: center;
+    
+
+  }
+
+  .add-button:hover {
+    background-color: #2e6c7dfe;
+}

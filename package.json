@@ -1,0 +1,25 @@
+{
+  "name": "mednet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3003",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "cohere": "^1.1.1",
+    "d3": "^7.9.0",
+    "d3-scale": "^4.0.2",
+    "flask": "^0.2.10",
+    "flask-cors": "^0.0.1",
+    "mongoose": "^8.2.3",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6.1.8",
+    "vis-data": "^7.1.9",
+    "vis-network": "^9.1.9"
+  }
+}

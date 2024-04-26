@@ -1,0 +1,49 @@
+.main {
+    background: linear-gradient(to bottom, #33acae47, #0daaac);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+
+  }
+
+
+
+.content {
+    align-self: center;
+    text-shadow: #0daaac;
+    font-family: 'Montserrat', sans-serif; 
+    color: #333333; 
+    font-size: 2.5em; 
+    font-weight: 900; 
+    line-height: 1.2; 
+    text-align: center; 
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 4px #33acae47; 
+    align-self: center;
+    margin-top: 100px; 
+    max-width: 80%; 
+    word-wrap: break-word; 
+}
+
+.disclaimer {
+  align-items: left;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  font-weight: 600;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+.subcontent {
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  font-weight: 700;
+  width: 700px;
+}
+
