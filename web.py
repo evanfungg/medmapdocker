@@ -13,7 +13,7 @@ co = cohere.Client(COHERE_API_KEY)
 
 @app.route('/')
 def home():
-    return "Welcome to the MedNet Docker"
+    return "Welcome to the MedNet Docker New"
 
 
 @app.route('/flask/web-search', methods=['POST'])
