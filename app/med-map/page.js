@@ -7,9 +7,11 @@ import './styles.css';
 
 const getConditions = async () => {
   try {
+    console.log(process.env.NEXT_PUBLIC_CONDITIONS);
     const res = await fetch(process.env.NEXT_PUBLIC_CONDITIONS, {
       cache: "no-store",
     });
+
 
     if (!res.ok) {
       throw new Error("Failed to fetch topics");
