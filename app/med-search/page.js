@@ -28,7 +28,7 @@ export default function Home() {
         alert("Retrieving generic name (scientific) : please wait");
 
         
-        const clientSearchResponse = await fetch(NEXT_PUBLIC_GENERIC_NAME, {
+        const clientSearchResponse = await fetch(process.env.NEXT_PUBLIC_GENERIC_NAME, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ clientSearchQuery: clientSearchQuery }),
