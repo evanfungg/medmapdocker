@@ -6,5 +6,5 @@ MedMap is an interactive site where we have mapped user-inputted data of medicat
 
 ## How it works
 
-See it in action [here!](https://medmap.vercel.app/)
+See it in action [here!](https://medmap.evanfung.tech/)
 
